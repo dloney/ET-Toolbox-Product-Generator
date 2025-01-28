@@ -1,8 +1,8 @@
 name: ettoolbox
 channels:
   - conda-forge
-  - defaults
 dependencies:
+  - python=3.11
   - astropy
   - beautifulsoup4
   - boto3
@@ -22,7 +22,6 @@ dependencies:
   - netcdf4
   - nose
   - pybind11
-  - keras
   - matplotlib
   - netcdf4
   - nose
@@ -33,7 +32,6 @@ dependencies:
   - pyresample
   - pysolar
   - pystac-client
-  - python=3.11
   - python-dateutil
   - rasterio>1.0.0
   - requests
@@ -48,29 +46,40 @@ dependencies:
   - xtensor
   - xtensor-python
   - wget
-  - colored-logging
-  - gedi-canopy-height
-  - geos5fp
-  - koppengeiger
   - mgrs
-  - modisci
-  - modland
-  - pybind11_cmake
-  - pycksum
   - pygrib
-  - rasters>=1.0.5
-  - sentinel-tiles
   - sentinelsat
-  - soil-capacity-wilting
-  - solar-apparent-time
-  - spacetrack
-  - modland
-  - koppengeiger
-  - soil-capacity-wilting
-  - geos5fp
-  - modisci
-  - gedi_canopy_height
-  - colored_logging
-  - sun-angles
   - typing-extensions
+  - aiobotocore
+  - boto3
+  - aioitertools
+  - botocore
+  - earthaccess
+  - multimethod
+  - s3fs
+  - tinynetrc
+  - wget
+  - pip
   - pip:
+     - rasters>=1.0.5
+     - sun-angles
+     - spacetrack
+     - soil-capacity-wilting
+     - solar-apparent-time
+     - sentinel-tiles
+     - pycksum
+     - pybind11_cmake
+     - modisci
+     - modland
+     - koppengeiger
+     - geos5fp
+     - gedi-canopy-height
+     - colored-logging
+     - soil-capacity-wilting
+     - modland
+     - modisci
+     - koppengeiger
+     - geos5fp
+     - bounded-pool-executor
+     - harmonized-landsat-sentinel
+     - python-cmr
